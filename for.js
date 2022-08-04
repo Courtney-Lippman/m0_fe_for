@@ -19,9 +19,18 @@ for (var i = 0; i < arrayLength; i++) {
     console.log(`The weather is ${weather_options[i]} today!`);
 }
 
+
 // Challenge 3
 // Use a for statement to log to the console only the words that are exactly 3 characters in length
 var words = ["car", "bike", "bus", "van", "scooter", "truck", "rv"]
+
+var arrayLength = words.length;
+for (var i = 0; i < arrayLength; i++) {
+    if (words[i].length === 3) {
+      console.log(words[i]);
+    }
+}
+
 
 // 📹 Record yourself live-coding and talking through any ONE of the challenges.
   // The recording doesn't have to be the first time you are solving the problem.
